@@ -2,6 +2,7 @@ package com.core.collections.list;
 
 import java.util.LinkedList;
 
+//1.2 version
 public class LinkedListPrograms {
 	public static void main(String[] args) {
 		/**
@@ -17,10 +18,10 @@ public class LinkedListPrograms {
 		 * 
 		 * worst for retrival operations
 		 * 
-		 * implements serializable and clonable not randomaccess interfaces
-		 * 
+		 * implements Serializable and clonable not RandomAccess interfaces
 		 * 
 		 */
+		// no capacity in LinkedList
 		LinkedList<Object> linkedList = new LinkedList<>();
 
 		linkedList.add(1);
