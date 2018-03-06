@@ -1,5 +1,6 @@
 package com.core.strings;
 
+// swap two strings without using 3rd string 
 public class Swap {
 	public static void main(String[] args) {
 		String s1 = "First";
