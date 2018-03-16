@@ -11,7 +11,5 @@ public class LambdaExpressions {
 //		le.greet(service);
 		Greeting myLambdaFunction = () -> System.out.println("Lambda Hello World!");
 		myLambdaFunction.perform();
-
 	}
-
 }

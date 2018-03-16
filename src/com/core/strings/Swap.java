@@ -11,5 +11,13 @@ public class Swap {
 		s1 = s1.substring(s2.length());
 
 		System.out.println(s1 + "-" + s2);
+
+		int a = 10;
+		int b = 19;
+		a = a + b;
+
+		b = a - b;
+		a = a - b;
+		System.out.println(a + "--" + b);
 	}
 }

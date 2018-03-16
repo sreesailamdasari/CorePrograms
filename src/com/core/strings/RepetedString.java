@@ -5,7 +5,7 @@ public class RepetedString {
 
 		String s1 = "abcabcdbcdfbc";
 		String s2 = "bc";
-		
+
 		int count = 0;
 		for (int i = 0; i < s1.length(); i++) {
 
