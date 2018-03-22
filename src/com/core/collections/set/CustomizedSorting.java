@@ -8,6 +8,7 @@ class Comparator1 implements Comparator {
 	public int compare(Object o1, Object o2) {
 		return 0;
 	}
+	
 
 }
 
